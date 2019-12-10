@@ -1,0 +1,327 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-nav {
+  justify-content: space-between;
+  width: 95%;
+  padding-left: 25px;
+}
+.navbar-brand__regular {
+  margin-top: 38px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(30, 30, 30, 0.85);
+}
+.bg-light {
+  opacity: 0.7;
+  height: 85px;
+}
+.header-content {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/typing-in-office-p-674-m-8-f.png");
+  background-size: 100%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  margin-top: 85px;
+}
+
+.header-content svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.Grupo-1-copia {
+  width: 770px;
+  height: 443px;
+  object-fit: contain;
+}
+
+.icon-app {
+  width: 58px;
+  height: 58px;
+  margin: 15px auto;
+  object-fit: contain;
+}
+
+.icon-solution {
+  width: 56px;
+  height: 57px;
+  object-fit: contain;
+}
+.platform {
+  background-color: #eaf4ff;
+  height: 475px;
+}
+
+.app-bg {
+  background-image: url("../images/rect-ngulo-redondeado-2@2x.png");
+  background-size: cover;
+}
+
+.img-app {
+  position: absolute;
+  top: -52px;
+  width: 150%;
+  right: 0%;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #04befe, #4481eb);
+  border-radius: 3px;
+  border: none;
+  font-size: 0.8rem;
+  padding: 10px 15px;
+}
+
+.btn-secondary {
+  border-radius: 3px;
+  background-color: #282a2e;
+  color: #fff;
+  font-size: 0.7rem;
+  margin: 7px 0;
+}
+h1,
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+.us {
+  background-image: url("../images/us-bg-1.png");
+  background-size: 72%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+
+  height: 670px;
+}
+.cifra {
+  color: #155ce0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.cifra-black {
+  font-size: 2.2rem;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+.solucion-card {
+  border-radius: 22px;
+  height: 290px;
+  padding: 20px;
+}
+
+.solucion-card:hover {
+  box-shadow: 0px 1px 13px 0px rgba(9, 9, 9, 0.11);
+}
+
+.btn-outline-gray {
+  border-radius: 25px;
+  background-color: rgb(236, 236, 236);
+  font-size: 0.9rem;
+  padding: 10px 25px;
+  opacity: 0;
+  transform: opacity 3s linear;
+}
+
+.solucion-card:hover .btn-outline-gray {
+  opacity: 1;
+}
+
+.footer {
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+}
+
+.footer-nav {
+  justify-content: space-between;
+  width: 95%;
+}
+
+.footer-nav .nav-link {
+  color: #fff;
+}
+
+.footer-bottom {
+  background-color: rgb(30, 30, 30);
+  height: 80px;
+}
+
+.valor {
+  background-image: url("../images/bg-valor.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: bottom;
+  height: 500px;
+}
+
+.btn-orange {
+  background-color: rgb(255, 86, 38);
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+}
+
+.icon-img {
+  height: 16px;
+  padding: 0 10px;
+}
+
+.ia {
+  background-image: url("../images/bg-ia.jpg");
+  background-size: cover;
+  background-position-y: 50%;
+  height: 100vh;
+  margin-top: 85px;
+}
+
+.chatbots {
+  background-image: url("../images/bg-chatbots.jpg");
+  background-size: 57%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  height: 100vh;
+}
+.chatbots .smartphone {
+  height: 500px;
+  margin: 3rem;
+}
+
+.selfie {
+  background-image: url("../images/bg-selfie.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.videollamadas {
+  background-image: url("../images/bg-videollamadas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 11%;
+  height: 100vh;
+}
+
+.herramientas {
+  background-image: url("../images/bg-herramientas.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.workflow {
+  background-image: url("../images/bg-workflow.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.ife-img {
+  height: 300px;
+}
+.icon-validacion {
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+.plataforma {
+  margin-top: 3rem;
+}
+.platform-img {
+  width: 128%;
+  margin: 0 -10%;
+}
+
+@media (max-width: 576px) {
+  .Grupo-1-copia {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .header-content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 85px;
+    background-position-x: 36%;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .navbar-brand__regular {
+    margin-top: 7px;
+  }
+  .navbar-toggler {
+    margin-top: -48px;
+  }
+  .platform {
+    padding-top: 2rem;
+    min-height: 600px;
+  }
+  .app-bg {
+    height: 300px !important;
+  }
+  .footer-nav {
+    width: 100%;
+  }
+  .bg-light {
+    opacity: 1;
+  }
+  .navbar-collapse {
+    margin: 0px -1rem;
+    background: #fff;
+  }
+  .us {
+    background-size: 55%;
+    min-height: 734px;
+    margin-top: 71px;
+  }
+  .us h5 {
+    margin-top: 2rem;
+  }
+  .solucion-card {
+    box-shadow: 0px 1px 13px 0px rgba(9, 9, 9, 0.11);
+    height: 270px;
+    margin-bottom: 1rem;
+  }
+  .solucion-card .pt-4 {
+    padding-top: 1rem !important;
+  }
+  .solucion-card .btn-outline-gray {
+    opacity: 1;
+  }
+  .valor {
+    min-height: 566px;
+  }
+  .ia {
+    background-repeat: no-repeat;
+    background-position-x: 12%;
+  }
+  .ife-img {
+    height: auto;
+    width: 100%;
+  }
+  .chatbots {
+    height: 74vh;
+  }
+  .chatbots .smartphone {
+    height: 200px;
+    margin: 1rem 3rem 1rem 14rem;
+  }
+}
