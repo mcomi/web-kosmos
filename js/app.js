@@ -9,45 +9,6 @@ $(document).on("click", 'a[href^="#"]', function(e) {
   );
 });
 
-$(".carousel-items").slick({
-  dots: false,
-  nextArrow: '<div class="nav-btn next-slide"></div>',
-  prevArrow: '<div class="nav-btn prev-slide"></div>',
-  infinite: true,
-  autoplay: true,
-  speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-
 $(document).ready(function() {
   /**
    * This object controls the nav bar. Implement the add and remove
@@ -117,4 +78,6 @@ $(document).ready(function() {
    * could be load with scroll down set.
    */
   offSetManager();
+
+  AOS.init();
 });

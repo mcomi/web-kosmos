@@ -30,7 +30,7 @@ body {
 .header-content {
   position: relative;
   height: 100vh;
-  background-image: url("../images/typing-in-office-p-674-m-8-f.png");
+  background-image: url("../images/typing-in-office-p-674-m-8-f.jpg");
   background-size: 100%;
   background-position-y: center;
   background-repeat: no-repeat;
@@ -201,8 +201,8 @@ h4 {
   background-image: url("../images/bg-ia.jpg");
   background-size: cover;
   background-position-y: 50%;
-  height: 100vh;
-  margin-top: 85px;
+  height: auto;
+  padding: 2rem 0;
 }
 
 .chatbots {
@@ -244,11 +244,6 @@ h4 {
   height: 100vh;
 }
 .videollamadas {
-  background-image: url("../images/Videollamada.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 11%;
   height: 100vh;
 }
 
@@ -261,7 +256,8 @@ h4 {
 .workflow {
   background-image: url("../images/bg-workflow.jpg");
   background-size: cover;
-  height: 100vh;
+  height: auto;
+  margin-top: 85px;
 }
 
 .text-white {
@@ -560,24 +556,29 @@ h4 {
     opacity: 1;
   }
   .valor {
-    min-height: 566px;
+    margin: 1rem auto;
+    height: auto;
   }
   .ia {
     background-repeat: no-repeat;
-    background-size: 377%;
+    background-size: 324%;
     background-position-x: 35%;
     background-position-y: -9%;
-    height: 110vh;
+    height: auto;
   }
   .ia h2 {
     margin-top: 3rem;
+  }
+  .workflow {
+    padding-top: 1rem;
   }
   .ife-img {
     height: auto;
     width: 80%;
   }
   .chatbots {
-    height: 84vh;
+    margin: 1rem auto;
+    height: auto;
   }
   .detection {
     background-position: center;
@@ -608,11 +609,20 @@ h4 {
     width: 86px;
     margin-top: 12rem;
   }
+  .videollamadas {
+    margin: 1rem auto;
+    height: auto;
+  }
   .videollamadas h2 {
-    margin-top: 20rem;
+    margin-top: 2rem;
+  }
+  .img-attack {
+    width: 280px;
+    height: auto;
   }
   .firma {
-    height: 85vh;
+    margin: 1rem auto;
+    height: auto;
   }
   .firma-img {
     height: auto;
